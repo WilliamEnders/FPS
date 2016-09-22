@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 8b568349a07948a4eb1e2b47341af75d
+timeCreated: 1474492918
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube10
+    100004: pCube3
+    100006: pCube6
+    100008: pCube7
+    100010: pCube8
+    100012: pCube9
+    100014: pCube11
+    100016: pCube12
+    100018: pCube13
+    100020: pCube14
+    100022: pCube15
+    100024: pCube16
+    100026: pCube17
+    100028: pCube18
+    100030: pCube19
+    100032: pCube20
+    100034: pCube21
+    100036: pCube22
+    100038: pCube23
+    100040: pCylinder1
+    100042: pPipe1
+    400000: //RootNode
+    400002: pCube10
+    400004: pCube3
+    400006: pCube6
+    400008: pCube7
+    400010: pCube8
+    400012: pCube9
+    400014: pCube11
+    400016: pCube12
+    400018: pCube13
+    400020: pCube14
+    400022: pCube15
+    400024: pCube16
+    400026: pCube17
+    400028: pCube18
+    400030: pCube19
+    400032: pCube20
+    400034: pCube21
+    400036: pCube22
+    400038: pCube23
+    400040: pCylinder1
+    400042: pPipe1
+    2300000: //RootNode
+    2300002: pCube10
+    2300004: pCube3
+    2300006: pCube6
+    2300008: pCube7
+    2300010: pCube8
+    2300012: pCube9
+    2300014: pCube11
+    2300016: pCube12
+    2300018: pCube13
+    2300020: pCube14
+    2300022: pCube15
+    2300024: pCube16
+    2300026: pCube17
+    2300028: pCube18
+    2300030: pCube19
+    2300032: pCube20
+    2300034: pCube21
+    2300036: pCube22
+    2300038: pCube23
+    2300040: pCylinder1
+    2300042: pPipe1
+    3300000: //RootNode
+    3300002: pCube10
+    3300004: pCube3
+    3300006: pCube6
+    3300008: pCube7
+    3300010: pCube8
+    3300012: pCube9
+    3300014: pCube11
+    3300016: pCube12
+    3300018: pCube13
+    3300020: pCube14
+    3300022: pCube15
+    3300024: pCube16
+    3300026: pCube17
+    3300028: pCube18
+    3300030: pCube19
+    3300032: pCube20
+    3300034: pCube21
+    3300036: pCube22
+    3300038: pCube23
+    3300040: pCylinder1
+    3300042: pPipe1
+    4300000: pCube3
+    4300002: pCube6
+    4300004: pCube7
+    4300006: pCube8
+    4300008: pCube9
+    4300010: pCube10
+    4300012: pCube11
+    4300014: pCube12
+    4300016: pCube13
+    4300018: pCube14
+    4300020: pCube15
+    4300022: pCube16
+    4300024: pCube17
+    4300026: pCube18
+    4300028: pCube19
+    4300030: pCube20
+    4300032: pCube21
+    4300034: pCube22
+    4300036: pCube23
+    4300038: room1
+    4300040: pCylinder1
+    4300042: pPipe1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
