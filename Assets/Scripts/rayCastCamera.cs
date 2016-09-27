@@ -11,13 +11,13 @@ public class rayCastCamera : MonoBehaviour {
 	private Transform papa;
 	private FirstPersonController fps;
 
-	private bool vrReady;
+	public bool vrReady;
 
 	// Use this for initialization
 	void Start () {
 		fps = GetComponentInParent<FirstPersonController> ();
 		papa = transform.root.transform;
-		vrReady = true;
+		vrReady = false;
 		camLocked = true;
 	}
 	
@@ -29,8 +29,10 @@ public class rayCastCamera : MonoBehaviour {
 		}
 		if(Input.GetKeyUp(KeyCode.Mouse0)){
 			drag = false;
-			if(pickUp){
-				info.transform.GetComponent<pickUpObj>().PickUp(false,transform);
+            if (pickUp) {
+                if (info.transform.GetComponent<pickUpObj>() && info.transform) { 
+                info.transform.GetComponent<pickUpObj>().PickUp(false, transform);
+            }
 				pickUp = false;
 
 			}
@@ -56,6 +58,9 @@ public class rayCastCamera : MonoBehaviour {
 				pickUp = true;
 				info.transform.GetComponent<pickUpObj>().PickUp(true,transform);
 			}
+            if (info.transform.CompareTag("Interact")) {
+                info.transform.GetComponent<openDoor>().OpenDoor();
+            }
 			if(info.transform.CompareTag("Computer")){
 				if (camLocked) {
 					CameraLock (false);
@@ -73,5 +78,9 @@ public class rayCastCamera : MonoBehaviour {
 		Cursor.visible = !locked;
 		camLocked = locked;
 	}
+
+    public void VRNO() {
+        vrReady = false;
+    }
 
 }

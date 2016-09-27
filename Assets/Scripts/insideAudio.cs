@@ -43,10 +43,14 @@ public class insideAudio : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter(){
-		inside = true;
+	void OnTriggerEnter(Collider info){
+		if(info.CompareTag("Player")){
+			inside = true;
+		}
 	}
-	void OnTriggerExit(){
-		inside = false;
+	void OnTriggerExit(Collider info){
+		if (info.CompareTag ("Player")) {
+			inside = false;
+		}
 	}
 }
