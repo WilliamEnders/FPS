@@ -42,7 +42,7 @@ public class dragDoor : MonoBehaviour {
 			dragPos = Camera.main.transform.position.z + (Camera.main.transform.forward.z * distance) - transform.localScale.z + (transform.localScale.z - handle.z);
 			newPos.z = Clamp(dragPos);
 		}
-        if (newPos.z > clampDoor.y + 0.2f)
+        if (newPos.z > clampDoor.y + 0.4f)
         {
             transform.position = Vector3.Lerp(transform.position, newPos, speed);
         }
