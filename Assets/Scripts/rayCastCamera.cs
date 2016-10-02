@@ -30,7 +30,7 @@ public class rayCastCamera : MonoBehaviour {
 		if(Input.GetKeyUp(KeyCode.Mouse0)){
 			drag = false;
             if (pickUp) {
-                if (info.transform.GetComponent<pickUpObj>() && info.transform) { 
+                if (info.transform != null) { 
                 info.transform.GetComponent<pickUpObj>().PickUp(false, transform);
             }
 				pickUp = false;
